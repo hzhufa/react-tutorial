@@ -5,7 +5,7 @@ import { getMenuData } from '../common/menu';
 import logo from '../assets/logo.svg';
 import GlobalHeader from "../component/GlobalHeader";
 
-const { Content, Header } = Layout;
+const { Content, Header, Footer } = Layout;
 
 class BasicLayout extends Component {
   constructor(props) {
@@ -50,6 +50,10 @@ class BasicLayout extends Component {
           <Content style={{ margin: '24px 24px 0', height: '100%' }}>
             { children }
           </Content>
+
+          <Footer style={{ textAlign: 'center',backgroundColor:"#CCCCCC" }}>
+            南威软件股份有限公司 版本所有
+          </Footer>
         </Layout>
       </Layout>
     );
