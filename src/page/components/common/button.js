@@ -1,7 +1,7 @@
 import 'antd/dist/antd.css';
 import { Component } from 'react';
 import { Button, Radio, Icon, Dropdown, Menu} from 'antd';
-
+//add by hzhufa
 class Common_Button extends Component {
   state = {
     size: 'large',
